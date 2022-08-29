@@ -5,7 +5,7 @@ ARG USERNAME
 
 RUN apt update && \
     apt install git binutils build-essential \
-    sysstat strace man manpages-dev tree sudo mlocate vim lldb -y && \
+    sysstat strace man manpages-dev tree sudo mlocate vim lldb curl pv systemctl -y && \
     yes | unminimize
 
 RUN useradd -m -s /bin/bash -u $UID $USERNAME

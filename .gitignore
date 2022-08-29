@@ -1,1 +1,8 @@
 .env
+.gitconfig
+.bash_history
+.lesshst
+.selected_editor
+.viminfo
+.devcontainer/
+.vscode-server/
