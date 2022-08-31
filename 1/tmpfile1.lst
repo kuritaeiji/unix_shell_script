@@ -1,0 +1,10 @@
+./getchar.sh
+./getopt.sh
+./pass_curl.sh
+./question.txt
+./read-redirect.sh
+./read.sh
+./select.sh
+./sigint.sh
+./tar-pv.sh
+./tmpfile1.lst
